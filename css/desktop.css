@@ -72,6 +72,10 @@
   display: flex;
   gap: 207px;
 }
+.hero-img{
+    width: 500px;
+    height: 500px;
+}
 .hero-text-wrap {
   max-width: 530px;
 }
@@ -127,6 +131,8 @@
 .footer-nav-wrap {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--main-text-color);
 }
 .footer-nav-list {
   flex-direction: row;
