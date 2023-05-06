@@ -1,0 +1,161 @@
+.container {
+  max-width: 1650px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.section {
+  padding-bottom: 100px;
+}
+.header-social-list {
+  display: none;
+}
+.header-menubtn {
+  display: none;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  padding-right: 50px;
+}
+.header-nav {
+  display: flex;
+  align-items: baseline;
+}
+.header-logo-svg {
+  width: 274px;
+  height: 49px;
+}
+.header-logo {
+}
+.link {
+}
+.header-logo-svg {
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 107.4%;
+  /* or 17px */
+
+  text-transform: uppercase;
+
+  /* dark */
+
+  color: var(--main-text-color);
+}
+.header-btn {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-transform: uppercase;
+
+  /* white */
+
+  color: var(--white-details);
+  background-color: var(--main-text-color);
+  border: 1px solid;
+  padding: 17px 20px;
+}
+.hero-compose {
+  display: flex;
+  gap: 207px;
+}
+.hero-text-wrap {
+  max-width: 530px;
+}
+.hero-title {
+  font-size: 80px;
+}
+.hero-text {
+  font-size: 24px;
+}
+.hero-btn {
+  max-width: none;
+  width: auto;
+  padding: 17px 30px;
+}
+.hero-fixedsvg {
+  right: 330px;
+  bottom: 0px;
+}
+.hero-item-title {
+  font-size: 14px;
+}
+.hero-link {
+  font-size: 16px;
+}
+.delivery-title-wrap {
+  max-width: 513px;
+  margin-bottom: 48px;
+}
+.delivery-title {
+  font-size: 48px;
+}
+.delivery-item-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+}
+.delivery-img {
+  width: 1408px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.delivery-list {
+  flex-direction: row;
+  gap: 136px;
+}
+.delivery-item {
+  max-width: 645px;
+}
+.footer-nav {
+  display: flex;
+  gap: 139px;
+}
+.footer-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-list {
+  flex-direction: row;
+  gap: 60px;
+  padding: 0px;
+  align-self: center;
+}
+.footer-logo-svg {
+  width: 218px;
+  height: 39px;
+}
+.footer-address-list {
+  flex-direction: row;
+  border: 0px;
+  justify-content: center;
+}
+.footer-address-list {
+  border: none;
+  gap: 65px;
+}
+.footer-list-end{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-polite {
+  font-size: 14px;
+  line-height: 14px;
+}
+.footer-copy{
+  font-size: 14px;
+  line-height: 14px;
+}

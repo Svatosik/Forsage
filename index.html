@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width: 1500px)"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-wrap">
+        <nav class="header-nav">
+          <a
+            href="#"
+            class="header-logo link"
+          >
+            <svg class="header-logo-svg">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                >Про компанію</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                >Бізнес</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="header-btn"
+        >
+          замовити онлайн
+        </button>
+
+        <ul class="header-social-list list">
+          <li class="header-social-item">
+            <a class="social-link">
+              <svg class="social-svg">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a class="social-link">
+              <svg class="social-svg">
+                <use href="./images/icons.svg#icon-viber"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="header-menubtn js-open-menu"
+        >
+          <svg class="menubtn-svg">
+            <use href="./images/icons.svg#icon-nav-bar"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu js-menu-container">
+        <ul class="menu-list">
+          <li class="menu-item"><a class="menu-item-link">Про компанію</a></li>
+          <li class="menu-item"><a class="menu-item-link">Бізнес</a></li>
+          <li class="menu-item"><a class="menu-item-link">Контакти</a></li>
+        </ul>
+        <address class="menu-address">
+          <ul class="menu-address-list">
+            <li class="menu-address-item">
+              <a
+                href="tel:+380504494717"
+                class="menu-address-link"
+                >+38 (050) 44 94 717</a
+              >
+            </li>
+            <li class="menu-address-item">
+              <a
+                href="mailto:office@forsage.energy"
+                class="menu-address-link"
+                >office@forsage.energy</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          type="button"
+          class="menubtn-order"
+        >
+          замовити онлайн
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container hero-wrap">
+          <svg class="hero-smallsvg">
+            <use href="./images/icons.svg#icon-quote"></use>
+          </svg>
+          <div class="hero-compose">
+            <div class="hero-text-wrap">
+              <h1 class="hero-title">Створюємо енергію руху</h1>
+              <p class="hero-text">
+                Ми — оптовий постачальник якісного палива для вашого бізнесу.
+                Надійність, Ефективність та вигідні умови — ось що ми гарантуємо
+              </p>
+            </div>
+            <img
+              src="./images/img-hero.png"
+              alt="seaport"
+              width="320px"
+              height="362px"
+            />
+          </div>
+          <svg class="hero-fixedsvg">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+          <button
+            type="button"
+            class="hero-btn"
+          >
+            замовити онлайн
+          </button>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <p class="hero-item-title">Подзвонити:</p>
+              <a
+                href="tel:+380504494717"
+                class="hero-link"
+                >+38 (050) 44 94 717</a
+              >
+            </li>
+            <li class="hero-item">
+              <p class="hero-item-title">Написати:</p>
+              <a
+                href="mailto:office@forsage.energy"
+                class="hero-link"
+                >office@forsage.energy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="delivery section">
+        <div class="container">
+          <div class="delivery-title-wrap">
+            <h2 class="delivery-title">
+              <span class="mark">Логістика</span> - доставляємо 24/7
+            </h2>
+          </div>
+          <picture>
+            <source
+              srcset="./images/car.jpg"
+              media="(max-width:768px)"
+            />
+            <img
+              src="./images/car-big.jpg"
+              alt="Фотографія"
+              class="delivery-img"
+            />
+          </picture>
+          <ul class="delivery-list">
+            <li class="delivery-item">
+              <p class="delivery-item-text">
+                Власний парк автоцистерн дозволяє нам постачати нафтопродукти по
+                всій Україні, незважаючи на географію клієнта. Логістика вашого
+                вантажу - це філігранна робота нашого персоналу.
+              </p>
+            </li>
+            <li class="delivery-item">
+              <p class="delivery-item-text">
+                Завдяки <span class="mark">smart</span>-технологіям, регулярному
+                обслуговуванню автопарку, якісному підбору водіїв наші логісти
+                вчасно доставляють вантажі до складу замовника.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div class="footer-nav-wrap">
+          <nav class="footer-nav">
+            <div>
+                <a
+              href="#"
+              class="footer-logo link"
+            >
+              <svg class="footer-logo-svg">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+            </a>
+            </div>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a
+                  href="#"
+                  class="footer-nav-link"
+                  >Про компанію</a
+                >
+              </li>
+              <li class="footer-nav-item">
+                <a
+                  href="#"
+                  class="footer-nav-link"
+                  >Бізнес</a
+                >
+              </li>
+              <li class="footer-nav-item">
+                <a
+                  href="#"
+                  class="footer-nav-link"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="footer-address-list">
+              <li class="footer-address-item">
+                <a
+                  href="tel:+380504494717"
+                  class="footer-address-link"
+                  >+38 (050) 44 94 717</a
+                >
+              </li>
+              <li class="footer-address-item">
+                <a
+                  href="mailto:office@forsage.energy"
+                  class="footer-address-link"
+                  >office@forsage.energy</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <ul class="footer-list-end">
+          <li class="footer-item-end">
+            <p class="footer-copy">&copy; 2023 Forsage Oil</p>
+          </li>
+          <li class="footer-item-end">
+            <p class="footer-polite">Політика конфіденційності</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
