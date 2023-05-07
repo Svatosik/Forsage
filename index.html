@@ -33,6 +33,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="./css/styles.css"
     />
     <link
@@ -232,6 +236,32 @@
           </ul>
         </div>
       </section>
+      <section class="advantage section">
+        <div class="container advantage-wraper">
+          <h2 class="advange-title">Пальне найвищої якості</h2>
+          <p class="advantage-text">
+            Враження від роботи вашого авто залежать від якості пального. Саме
+            тому ми імпортуємо та постачаємо пальне тільки найвищої якості, що
+            відповідає стандарту ЄВРО-5.З нами ви можете бути впевнені в якості
+            вашого пального.
+          </p>
+          <picture>
+            <source
+              srcset="./images/swiper.png"
+              media="(max-width:768px)"
+            />
+            <img
+              src="./images/swiper-big.png"
+              alt="Фотографія"
+              class="advantage-swiper"
+            />
+          </picture>
+          <h3 class="slider-title">LPG</h3>
+          <p class="advantage-text"><span><svg class="advantage-svg">
+              <use href="./images/icons.svg#icon-text-logo"></use>
+            </svg></span>забезпечує гуртову реалізацію скрапленого вуглеводневого газу, який відповідає вимогам Європейського стандарту.</p>
+        </div>
+      </section>
       <section class="delivery section">
         <div class="container">
           <div class="delivery-title-wrap">
@@ -337,6 +367,7 @@
         </ul>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

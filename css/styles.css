@@ -144,7 +144,7 @@ img {
   height: 34px;
 }
 .close-svg {
-height: 32px;
+  height: 32px;
   fill: var(--white-details);
 }
 .menu-list {
@@ -296,11 +296,52 @@ height: 32px;
 
   color: var(--main-text-color);
 }
+.advantage {
+  padding-top: 50px;
+  background-color: var(--main-text-color);
+}
+.advange-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 107.4%;
+  /* identical to box height, or 26px */
+
+  font-variant: small-caps;
+
+  /* white */
+
+  color: var(--white-details);
+  margin-bottom:10px ;
+}
+.advantage-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  color: var(--white-details);
+  margin-bottom:10px ;
+}
+.slider-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  /* identical to box height, or 100% */
+
+  /* white */
+
+  color: var(--white-details);
+  margin-bottom:10px ;
+}
+.advantage-svg {
+  width: 105px;
+  height: 11px;
+  fill: var(--white-details);
+}
 .delivery {
   padding-top: 0px;
 }
-.section {
-}
+
 .delivery-title {
   font-weight: 700;
   font-size: 24px;
@@ -319,10 +360,9 @@ height: 32px;
 }
 .delivery-item {
 }
-.change
-{
-    color: transparent;
-    -webkit-text-stroke: 2px var(--main-text-color);
+.change {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--main-text-color);
 }
 .delivery-item-text {
   font-weight: 400;

@@ -65,7 +65,8 @@
   background-color: black;
   transition: 0.5s;
 }
-.nav-link:hover::before, .nav-link:focus::before {
+.nav-link:hover::before,
+.nav-link:focus::before {
   width: 100%;
 }
 .header-btn {
@@ -102,10 +103,12 @@
   z-index: -1;
   transition: 0.5s;
 }
-.header-btn:hover:before, .header-btn:focus:before {
+.header-btn:hover:before,
+.header-btn:focus:before {
   height: 100%;
 }
-.header-btn:hover, .header-btn:focus  {
+.header-btn:hover,
+.header-btn:focus {
   color: var(--main-text-color);
 }
 .hero-compose {
@@ -150,10 +153,12 @@
   z-index: -1;
   transition: 0.5s;
 }
-.hero-btn:hover:before, .hero-btn:focus:before {
+.hero-btn:hover:before,
+.hero-btn:focus:before {
   width: 100%;
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--main-text-color);
 }
 .hero-fixedsvg {
@@ -164,6 +169,32 @@
 }
 .hero-link {
   font-size: 16px;
+}
+.advantage {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-right: 500px;
+}
+.advantage-wraper {
+  position: relative;
+  width: 700px;
+  margin: 0;
+}
+.advange-title {
+  font-size: 48px;
+}
+.advantage-text {
+  font-size: 18px;
+}
+.advantage-swiper {
+  position: absolute;
+  left: -75%;
+  top: -40%;
+}
+.slider-title {
+  font-size: 48px;
 }
 .delivery-title-wrap {
   max-width: 513px;
@@ -224,8 +255,9 @@
   background-color: black;
   transition: 0.5s;
 }
-.footer-nav-link:hover::before, .footer-nav-link:focus::before{
- width: 100%;
+.footer-nav-link:hover::before,
+.footer-nav-link:focus::before {
+  width: 100%;
 }
 .footer-address-list {
   flex-direction: row;
@@ -240,11 +272,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.footer-address-link{
+.footer-address-link {
   position: relative;
   z-index: 1;
 }
-.footer-address-link::before{
+.footer-address-link::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -255,7 +287,8 @@
   background-color: black;
   transition: 0.5s;
 }
-.footer-address-link:hover::before , .footer-address-link:focus::before{
+.footer-address-link:hover::before,
+.footer-address-link:focus::before {
   width: 100%;
 }
 .footer-polite {
