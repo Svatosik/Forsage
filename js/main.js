@@ -9,20 +9,22 @@
     openMenuBtn.setAttribute("aria-expanded", !isMenuOpen);
     mobileMenu.classList.toggle("is-open");
 
-    const scrollLockMethod = !isMenuOpen
-      ? "disableBodyScroll"
-      : "enableBodyScroll";
-    bodyScrollLock[scrollLockMethod](document.body);
+    // Blokowanie lub odblokowanie przewijania strony
+    if (!isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
   };
 
   openMenuBtn.addEventListener("click", toggleMenu);
   closeMenuBtn.addEventListener("click", toggleMenu);
 
-  // Close the mobile menu on wider screens if the device orientation changes
+  // Zamknięcie menu przy zmianie szerokości ekranu
   window.matchMedia("(min-width: 768px)").addEventListener("change", (e) => {
     if (!e.matches) return;
     mobileMenu.classList.remove("is-open");
     openMenuBtn.setAttribute("aria-expanded", false);
-    bodyScrollLock.enableBodyScroll(document.body);
+    document.body.style.overflow = "";
   });
 })();

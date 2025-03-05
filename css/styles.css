@@ -342,9 +342,11 @@ img {
   fill: var(--white-details);
 }
 .delivery {
-  padding-top: 0px;
+  padding-top: 50px;
 }
-
+.delivery-title-wrap{
+  margin-bottom: 25px;
+}
 .delivery-title {
   font-weight: 700;
   font-size: 24px;
