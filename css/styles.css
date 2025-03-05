@@ -47,6 +47,7 @@ img {
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
 .mark {
   font-weight: 300;
@@ -146,6 +147,7 @@ img {
 .close-svg {
   height: 32px;
   fill: var(--white-details);
+  stroke: white;
 }
 .menu-list {
   border-bottom: 1px solid var(--main-text-color);

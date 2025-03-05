@@ -174,7 +174,7 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   padding-right: 500px;
 }
 .advantage-wraper {
@@ -195,6 +195,9 @@
 }
 .slider-title {
   font-size: 48px;
+}
+.delivery{
+  padding-top: 50px;
 }
 .delivery-title-wrap {
   max-width: 513px;
