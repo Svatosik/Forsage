@@ -146,6 +146,7 @@ img {
 }
 .close-svg {
   height: 32px;
+  width: 25px;
   fill: var(--white-details);
   stroke: white;
 }
